@@ -1,0 +1,944 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: ;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: ;
+}
+a, a:hover{
+	text-decoration:none;
+}
+/*header css start*/
+.header {
+	width: 100%;
+    font-family: 'Open Sans', sans-serif;
+
+	background: url(../images/bottomheaderBG1.png) top center no-repeat;
+	background-size: cover;
+}
+.header .header-top .bg-light {
+    background-color: #fff !important;
+}
+.header .header-top .navbar-light .navbar-brand {
+    width: 75px;
+}
+.header .header-top .navbar-light .navbar-brand img{
+	width: 100%;
+}
+.header .header-top .form-control.me-2 {
+    width: 70%;
+    border-radius: 24px;
+    background: #c3bfbc;
+}
+.header .header-top .d-flex {
+    display: flex!important;
+    position: relative;
+}
+.header .header-top .d-flex i {
+    position: absolute;
+    top: 9px;
+    font-size: 20px;
+    right: 70px;
+}
+.header .header-top .navbar-nav .search {
+    padding: 5px 5px;
+    border-radius: 9999px;
+    background: #c3bfbc;
+    width: 155px;
+    height: 45px;
+}
+.header .header-top .navbar-nav .searchbox {
+    border: none;
+    padding: 0px 0 0px 10px;
+    outline: none;
+    background: #c3bfbc;
+    width: 70%;
+    color: #696765;
+    font-size: 17px;
+}
+.header .header-top .navbar-nav .search i {
+    font-size: 20px;
+    padding: 7px;
+        color: #54524f;
+}
+.header .header-top .navbar-light .navbar-nav .nav-link {
+    color: #54524f;
+    font-size: 19px;
+    font-weight: 600;
+    margin-right: 25px;
+    padding-top: 12px;
+    text-transform: uppercase;
+}
+.header .header-top .navbar-light .navbar-nav .nav-link:hover{
+	color: #deb37e;
+}
+.header-bottom{
+	width: 100%;
+	height: 957px;
+	font-family: 'Open Sans', sans-serif;
+}
+.header-bottom h1{
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: bolder;
+    color: #deb37e;
+    margin-top: 250px;
+}
+.header-bottom h6 {
+    font-style: italic;
+    font-size: 24px;
+    line-height: 34px;
+    color: #54524f;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 85px;
+}
+.header-bottom .btn-primary {
+    padding: 8px 26px;
+    color: #776c64;
+    font-size: 20px;
+    background: #fff;
+    font-weight: 900;
+    border: 1px solid #fff;
+    border-radius: 9999px;
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+.header-bottom .btn-primary:hover{
+	color: #deb37e;
+	border: 1px solid #deb37e;
+}
+.header-bottom p{
+    color: #776c64;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 30px;
+    width: 480px;
+}
+
+
+/*header css end*/
+
+/*lets-go css start*/
+
+.lets-go {
+    width: 100%;
+    padding: 0px 0 150px;
+    background: url(../images/Shadow.png) bottom left no-repeat;
+    background-size: auto;
+}
+.lets-go .title-area {
+    text-align: center;
+}
+.lets-go .title-area h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 70px;
+    color: #e2a355;
+    margin-bottom: 26px;
+    font-family: 'Open Sans', sans-serif;
+}
+.lets-go .title-area p {
+    font-size: 19px;
+    color: #7f7770;
+    line-height: 29px;
+    width: 45%;
+    margin: auto;
+        padding-bottom: 70px;
+        font-family: 'Open Sans', sans-serif;
+}
+.lets-go .lets-go-card {
+    border: none;
+}
+.lets-go .lets-go-card img {
+        border: none;
+    border-radius: 0;
+    height: 301px;
+}
+.lets-go .card-body {
+    flex: 1 1 auto;
+    padding: 40px 20px;
+    background: #7f7770;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.card-title {
+    margin-bottom: 20px;
+    font-size: 29px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.card-text {
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 36px;
+    font-family: 'Open Sans', sans-serif;
+}
+.lets-go .letsgo-col{
+	--bs-gutter-x: 3rem;
+}
+.lets-go .btn.btn-primary {
+    margin-top: 60px;
+    padding: 15px 60px;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    background: #7f7770;
+    border: none;
+    border-radius: 9999px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*lets-go css end*/
+
+/*four-card css start*/
+
+.four-card{
+	width: 100%;
+}
+.four-card .four-card-container{
+	padding: 0;
+}
+.four-card .four-card-container .row{
+	--bs-gutter-x: 0;
+}
+.four-card .four-card-container .col-md-6 img{
+	width: 100%;
+}
+.four-card .four-card-container .col-md-6{
+	padding: 0;
+}
+.four-card .four-card-container .row .text-1{
+    background: #7f7770;
+    color: #fff;
+        padding: 132px 65px;
+}
+.four-card .four-card-container .row .text-1 h1{
+    font-size: 55px;
+    line-height: 65px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.four-card .four-card-container .row .text-1 p{
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.four-card .four-card-container .row .text-1 .btn-primary{
+    background: #e2a355;
+    border: none;
+    border-radius: 9999px;
+    padding: 17px 56px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.four-card .four-card-container .row .text-2{
+    background: #deb37e;
+    color: #fff;
+        padding: 131px 65px;
+        font-family: 'Open Sans', sans-serif;
+}
+.four-card .four-card-container .row .text-2 h1{
+    font-size: 55px;
+    line-height: 65px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.four-card .four-card-container .row .text-2 p{
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.four-card .four-card-container .row .text-2 .btn-primary{
+    background: #e2a355;
+    border: none;
+    border-radius: 9999px;
+    padding: 17px 56px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+/*four-card css end*/
+
+/*mountain css start*/
+.mountain{
+	width: 100%;
+	height: 1895px;
+	background: url(../images/hiking.png) top center no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+	    position: relative;
+}
+.mountain .title-mountain {
+    text-align: center;
+    margin-top: 260px;
+    color: #fff;
+}
+.mountain .title-mountain h1 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+.mountain .title-mountain p {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+.mountain .content {
+    text-align: right;
+    color: #54524f;
+    text-shadow: 2px -3px 2px #bbaeae;
+    font-family: 'Open Sans', sans-serif;
+}
+.mountain .content h1 {
+    position: absolute;
+    right: 130px;
+    bottom: 470px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+.content h1 span {
+    color: #deb37e;
+    font-family: 'Open Sans', sans-serif;
+}
+.three-col .card{
+	border: none;
+}
+/*mountain css end*/
+
+.three-col{
+	width: 100%;
+	padding: 80px 0;
+    background: url(../images/Shadow2.png) bottom right no-repeat;
+    background-size: auto;
+
+}
+.three-col .card-title {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #deb37e;
+    font-family: 'Open Sans', sans-serif;
+}
+.three-col .card {
+    border: none;
+}
+.three-col .card-body {
+    flex: 1 1 auto;
+    padding: 10px 0;
+}
+.three-col .card-text {
+    font-size: 21px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.row.testiomonal {
+    padding-top: 225px;
+    text-align: center;
+    padding-bottom: 100px;
+    color: #3f3f3f;
+}
+.three-col .testiomonal h1{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 45px;
+    font-family: 'Open Sans', sans-serif;
+}
+.three-col .testiomonal p {
+    font-size: 21px;
+    line-height: 31px;
+    font-weight: 500;
+        margin-bottom: 50px;
+        font-family: 'Open Sans', sans-serif;
+}
+.three-col .testiomonal h6{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*subscribe css start*/
+
+.subscribe{
+	width: 100%;
+    background: url(../images/Group8.png) bottom right no-repeat;
+    background-size: auto;
+    height: 1033px;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.subscribe h1{
+    color: #fff;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+.subscribe p{
+    font-size: 21px;
+    color: #54524f;
+    font-weight: 400;
+    line-height: 31px;
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+.subscribe .btn-primary {
+    position: absolute;
+    right: 30%;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 9999px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background: #54524f;
+    font-family: 'Open Sans', sans-serif;
+}
+.subscribe input{
+    width: 45%;
+    border: none;
+    border-radius: 9999px;
+    padding: 10px 20px;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*subscribe css start*/
+/*footer css start*/
+.footer{
+	width: 100%;
+	background: url(../images/footer-bg.png) bottom right no-repeat;
+    background-size: auto;
+    display: grid;
+    place-items: center;
+    height: 777px;
+    color: #fff;
+}
+.footer h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 300;
+}
+.footer p{
+    font-size: 24px;
+    line-height: 34px;
+    font-family: 'Montserrat', sans-serif;
+        padding: 25px 0;
+}
+.footer .social{
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+.footer .social .icons {
+    border: 1px solid;
+    margin-right: 15px;
+    border-radius: 9999px;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    color: #837870;
+    background: #fff;
+}
+.footer .social .icons i {
+    font-size: 28px;
+}
+.footer .footer-list{
+    list-style: none;
+    padding: 0;
+        margin-top: 30px;
+}
+.footer .footer-list li {
+    font-size: 19px;
+    line-height: 29px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-bottom: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+/*footer css end*/
+/*Media Quaries start here*/
+@media (min-width: 320px) and (max-width: 480px){
+.header {
+    height: 815px;
+}
+.header-bottom h1 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 50px;
+}
+.header-bottom h6 {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.header-bottom p {
+    color: #000;
+    font-size: 15px;
+    line-height: 25px;
+    width: 100%;
+}
+.lets-go .title-area h1 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 20px;
+}
+.lets-go .title-area p {
+    font-size: 15px;
+    line-height: 25px;
+    width: 100%;
+    padding-bottom: 35px;
+}
+.lets-go .card-body {
+    padding: 25px 15px;
+}
+.card-title {
+    margin-bottom: 14px;
+    font-size: 25px;
+}
+.card-text {
+    font-size: 19px;
+    line-height: 29px;
+}
+.lets-go .lets-go-card img {
+    height: auto;
+}
+.lets-go .lets-go-card {
+    margin-bottom: 25px;
+}
+.lets-go .btn.btn-primary {
+    margin-top: 23px;
+    padding: 12px 40px;
+    font-size: 22px;
+}
+.four-card .four-card-container .row .text-1 {
+    padding: 26px 18px;
+}
+.four-card .four-card-container .row .text-1 h1 {
+    font-size: 31px;
+    line-height: 41px;
+    margin-bottom: 25px;
+}
+.four-card .four-card-container .row .text-1 p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 35px;
+}
+.four-card .four-card-container .row .text-1 .btn-primary {
+    padding: 13px 37px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+.four-card .four-card-container .row .text-2 {
+    padding: 26px 18px;
+}
+.four-card .four-card-container .row .text-2 h1 {
+    font-size: 31px;
+    line-height: 41px;
+    margin-bottom: 25px;
+}
+.four-card .four-card-container .row .text-2 p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 35px;
+}
+.four-card .four-card-container .row .text-2 .btn-primary {
+    padding: 13px 37px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+.mountain .title-mountain {
+    text-align: center;
+    margin-top: 240px;
+    color: #fff;
+}
+.mountain .title-mountain h1 {
+    font-size: 38px;
+    line-height: 48px;
+    margin-bottom: 22px;
+}
+.mountain .title-mountain p {
+    font-size: 17px;
+    line-height: 27px;
+}
+.mountain {
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 300px;
+}
+.mountain .title-mountain {
+    margin-top: 23px;
+}
+.mountain .title-mountain h1 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 22px;
+}
+.mountain .title-mountain p {
+    font-size: 16px;
+    line-height: 26px;
+    color: black;
+}
+.mountain .content h1 {
+    right: 8px;
+    bottom: 125px;
+    font-size: 23px;
+}
+.three-col {
+    padding: 0px 0;
+}
+.three-col .card-title {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.three-col .card-text {
+    font-size: 16px;
+    line-height: 26px;
+}
+.row.testiomonal {
+    padding-top: 85px;
+    padding-bottom: 0;
+    color: black;
+}
+.three-col .testiomonal h1 {
+    font-size: 90px;
+    line-height: 40px;
+}
+.three-col .testiomonal p {
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.three-col .testiomonal h6 {
+    font-size: 17px;
+}
+.subscribe {
+    height: 915px;
+}
+.subscribe h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.subscribe p {
+    font-size: 17px;
+    margin-bottom: 27px;
+}
+.three-col {
+    background-size: 50%;
+}
+.lets-go {
+    background-size: 80%;
+}
+.subscribe input {
+    width: 80%;
+    padding: 6px 15px;
+}
+.subscribe .btn-primary {
+    right: 13%;
+    padding: 10px 12px;
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+.footer h1 {
+    font-size: 21px;
+    line-height: 0;
+    margin-top: 36px;
+}
+.footer p {
+    font-size: 15px;
+    line-height: 25px;
+    padding: 20px 0;
+}
+.footer .social .icons {
+    margin-right: 12px;
+    width: 40px;
+    height: 40px;
+}
+.footer .social .icons i {
+    font-size: 20px;
+}
+.footer .footer-list {
+    margin-top: 20px;
+}
+.footer .footer-list li {
+    font-size: 11px;
+    line-height: 19px;
+    padding-bottom: 6px;
+}
+.footer .footer-col {
+    width: 33.333%;
+    padding: 0 7px 0 0;
+}
+}
+@media (min-width: 481px) and (max-width: 767px){
+	.header {
+    height: 815px;
+}
+.header-bottom h1 {
+    font-size: 53px;
+    line-height: 63px;
+    margin-top: 150px;
+}
+.header-bottom h6 {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+.header-bottom p {
+    color: #776c64;
+    font-size: 15px;
+    line-height: 25px;
+    width: 51%;
+}
+.lets-go .title-area h1 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 20px;
+}
+.lets-go .title-area p {
+    font-size: 15px;
+    line-height: 25px;
+    width: 100%;
+    padding-bottom: 35px;
+}
+.lets-go .card-body {
+    padding: 25px 15px;
+}
+.card-title {
+    margin-bottom: 14px;
+    font-size: 25px;
+}
+.card-text {
+    font-size: 19px;
+    line-height: 29px;
+}
+.lets-go .lets-go-card img {
+    height: auto;
+}
+.lets-go .lets-go-card {
+    margin-bottom: 25px;
+}
+.lets-go .btn.btn-primary {
+    margin-top: 23px;
+    padding: 12px 40px;
+    font-size: 22px;
+}
+.four-card .four-card-container .row .text-1 {
+    padding: 26px 18px;
+}
+.four-card .four-card-container .row .text-1 h1 {
+    font-size: 31px;
+    line-height: 41px;
+    margin-bottom: 25px;
+}
+.four-card .four-card-container .row .text-1 p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 35px;
+}
+.four-card .four-card-container .row .text-1 .btn-primary {
+    padding: 13px 37px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+.four-card .four-card-container .row .text-2 {
+    padding: 26px 18px;
+}
+.four-card .four-card-container .row .text-2 h1 {
+    font-size: 31px;
+    line-height: 41px;
+    margin-bottom: 25px;
+}
+.four-card .four-card-container .row .text-2 p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 35px;
+}
+.four-card .four-card-container .row .text-2 .btn-primary {
+    padding: 13px 37px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+.mountain .title-mountain {
+    text-align: center;
+    margin-top: 240px;
+    color: #fff;
+}
+.mountain .title-mountain h1 {
+    font-size: 38px;
+    line-height: 48px;
+    margin-bottom: 22px;
+}
+.mountain .title-mountain p {
+    font-size: 17px;
+    line-height: 27px;
+}
+.mountain {
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 400px;
+}
+.mountain .title-mountain {
+    margin-top: 40px;
+}
+.mountain .title-mountain h1 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 22px;
+}
+.mountain .title-mountain p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+}
+.mountain .content h1 {
+    right: 13%;
+    bottom: 18%;
+    font-size: 26px;
+}
+.three-col {
+    padding: 0px 0;
+}
+.three-col .card-title {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.three-col .card-text {
+    font-size: 16px;
+    line-height: 26px;
+}
+.row.testiomonal {
+    padding-top: 85px;
+    padding-bottom: 0;
+    color: black;
+}
+.three-col .testiomonal h1 {
+    font-size: 90px;
+    line-height: 40px;
+}
+.three-col .testiomonal p {
+    font-size: 21px;
+    line-height: 31px;
+    margin-bottom: 25px;
+}
+.three-col .testiomonal h6 {
+    font-size: 25px;
+}
+.subscribe {
+    height: 915px;
+}
+.subscribe h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.subscribe p {
+    font-size: 17px;
+    margin-bottom: 27px;
+}
+.three-col {
+    background-size: 50%;
+}
+.lets-go {
+    background-size: 80%;
+}
+.subscribe input {
+    width: 80%;
+    padding: 6px 15px;
+}
+.subscribe .btn-primary {
+    right: 10%;
+    padding: 10px 12px;
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+.footer h1 {
+    font-size: 31px;
+    line-height: 15px;
+    margin-top: 36px;
+}
+.footer p {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 20px 0;
+}
+.footer .social .icons {
+    margin-right: 12px;
+    width: 40px;
+    height: 40px;
+}
+.footer .social .icons i {
+    font-size: 20px;
+}
+.footer .footer-list {
+    margin-top: 20px;
+}
+.footer .footer-list li {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 6px;
+}
+.footer .footer-col {
+    width: 33.333%;
+    padding: 0 7px 0 0;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px){
+	
+}
+/*Media Quaries End here*/
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
